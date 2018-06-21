@@ -9,4 +9,9 @@ before_script:
 script:
   - git submodule init
   - cd vyper && make && cd ..
-  - python app.py test
+after_script:
+  - |
+    python app.py &
+    APP_PID=$!
+  - sleep 5
+  - kill $APP_PID
