@@ -7,4 +7,4 @@ install:
 script:
   - git submodule init
   - cd vyper && make && cd ..
-  - python app.py
+  - py.test
