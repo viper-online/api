@@ -9,4 +9,4 @@ before_script:
 script:
   - git submodule init
   - cd vyper && make && cd ..
-  - flask test
+  - python app.py test
