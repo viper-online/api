@@ -1,4 +1,4 @@
-# api
+# Api [![Build Status](https://travis-ci.org/paltrickontpb/api.svg?branch=master)](https://travis-ci.org/paltrickontpb/api)
 
 Compiler API for [vyper](https://github.com/ethereum/vyper) online editor
 
